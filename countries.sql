@@ -2,7 +2,7 @@ PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 
 
--- drop table if exists irmt_countries;
+DROP TABLE IF EXISTS irmt_countries;
 CREATE TABLE irmt_countries(
   sort                          INT,	
   name_en                       TEXT,
